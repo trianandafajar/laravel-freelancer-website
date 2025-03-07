@@ -11,13 +11,13 @@
 
 <script>
     $(document).ready(function() {
-        $(".modal").on('click', ':not(.relative)', function (e) {
+        $(".modal").on('click', ':not(.relative)', function(e) {
             e.stopPropagation();
         });
-        $("#loginModal").on('click', function (e) {
+        $("#loginModal").on('click', function(e) {
             toggleModal('loginModal');
         });
-        $("#registerModal").on('click', function (e) {
+        $("#registerModal").on('click', function(e) {
             toggleModal('registerModal');
         });
     });
